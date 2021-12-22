@@ -37,9 +37,9 @@ jobs:
       - name: Test with make
         run: |
           make test
-      - name: Test with pytest
-        run: |
-          python -m pytest -vv
+      # - name: Test with pytest
+      #   run: |
+      #     python -m pytest -vv
 
       # Runs a single command using the runners shell
       - name: Run make command
