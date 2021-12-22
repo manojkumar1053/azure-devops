@@ -1,2 +1,7 @@
+from click.testing import CliRunner
+from hello import hello
+
 def test_hello():
-    assert 2+2 ==4
+    runner = CliRunner()
+    result = runner.invoke(hello, ["--name", "Thor", "--color", "blue"])
+    assert "Thor" in result.output
