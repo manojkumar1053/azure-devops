@@ -1,5 +1,5 @@
 # azure-devops
-
+Repo for Azure Infrastructure Operations,CI/CD Pipeline
 #### Azure Infrastructure Operations
 #### Building a CI/CD Pipeline
 #### Ensuring Quality Releases (Quality Assurance)
