@@ -6,4 +6,4 @@ install:
 lint:
 	pylint --disable=R,C,E1120 hello.py
 test:
-	python3 -m pytest test_hello.py
+	python3 -m pytest -vv
