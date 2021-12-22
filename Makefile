@@ -2,6 +2,7 @@ hello:
 	echo "Testing make command"
 
 install:
-	echo "This will be pip install command"
+	pip install --upgrade pip &&\
+		pip install -r requirements.txt
 
 	
